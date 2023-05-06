@@ -8,16 +8,21 @@
 }
 
 .tabela {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 25px;
     background-color: #eeee;
     flex-direction: column;
 }
 
-.divider {
-    width: 200%;
-    padding: 0.3px;
-    background-color: #2e08d8ee;
+.task{
+    padding: 10px;
+}
+
+.task-single{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-delete{
+    cursor: pointer;
 }
